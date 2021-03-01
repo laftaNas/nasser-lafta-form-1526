@@ -1,0 +1,91 @@
+.box {
+    margin-bottom: 0 0 1rem 0;
+    
+}
+
+body {
+    position: relative;
+    
+}
+
+
+fieldset {
+    max-width: 50rem;
+    background-color: #F5F5F5;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    padding: 2rem;
+    border-color: lightgrey;
+
+}
+
+theader {
+   font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    background-color: white;
+    border: 1.5px solid #dad9d6;
+    text-align: center;
+    padding: .6rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 400px;
+    left: 20px;
+    
+    
+}
+
+
+.htmlform {
+    padding-top: 3rem;
+    text-align: center;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+
+#submit-button {
+    font-size: 15px;
+    color: white;
+    padding: 0.8rem;
+    background-color: #6495ED;
+    border-style: none;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    width: 26rem;
+}
+
+#fname {
+    padding: 0.8rem;
+    width: 24rem;
+    
+}
+
+#email {
+    padding: 0.8rem;
+    width: 24rem;
+    
+}
+
+#message {
+    padding: 1.5rem;
+    width: 22.5rem;
+}
+
+
+/******************************
+			
+******************************/
+
+@media only screen and (max-width: 50rem);
